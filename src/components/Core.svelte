@@ -58,14 +58,15 @@
         font-size: 16px;
         border: none;
         border-radius: 8px; /* Curved corners */
-        background-color: #496e04;
+        background-color: #9fb5a5;
         color: white;
         cursor: pointer;
         transition: background-color 0.3s ease;
     }
 
     .shorten-btn:hover {
-        background-color: #465e18;
+        background-color: #acb5ae;
+        border-radius: 18px;
     }
 
     .short-link {

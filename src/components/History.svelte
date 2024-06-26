@@ -31,7 +31,7 @@
 
 <div class="history-container">
     <div class="history-header">
-        <img src="/path/to/history.svg" alt="History Icon" class="history-icon" />
+        <img src="/images/history.svg" alt="History Icon" class="history-icon" />
         <h2>History</h2>
     </div>
     {#if history.length > 0}
@@ -69,8 +69,8 @@
     }
 
     .history-icon {
-        width: 24px;
-        height: 24px;
+        width: 48px;
+        height: 48px;
         margin-right: 8px;
     }
 
@@ -114,14 +114,15 @@
         font-size: 1em;
         border: none;
         border-radius: 8px; /* Curved corners */
-        background-color: #496e04;
+        background-color: #9fb5a5;
         color: white;
         cursor: pointer;
         transition: background-color 0.3s ease;
     }
 
     .clear-btn:hover {
-        background-color: #465e18;
+        background-color: #acb5ae;
+        border-radius: 18px;
     }
 
     p {

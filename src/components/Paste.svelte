@@ -21,7 +21,7 @@
         font-size: 16px;
         border: none;
         border-radius: 4px;
-        background-color: #496e04; /* Standard single color */
+        background-color: #9fb5a5; /* Standard single color */
         color: white;
         cursor: pointer;
         transition: background-color 0.3s ease;
@@ -29,6 +29,7 @@
     }
 
     .paste-btn:hover {
-        background-color: #465e18;
+        background-color: #acb5ae;
+        border-radius: 18px;
     }
 </style>
